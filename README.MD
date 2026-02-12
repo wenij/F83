@@ -11,6 +11,13 @@ FORTH-83 version 2.0 by Henry Laxen and Mike Perry for
 
 **F83** is a model implementation of the (now outdated) **Forth-83** standard. For your convenience you can find a copy of the Forth-83 standard document in the `Standard` directory.
 
+### Features
+
+- Self-hosted Forth-83 with a meta compiler and assemblers for 8080, 8086, and 68000 targets.
+- Distributions for CP/M-80, CP/M 68000, and MS-DOS.
+- Block-based editing and file/block management via 1KB screens.
+- Utilities such as a decompiler (`SEE`), multitasker, debugger, strings, and dump/print tools.
+
 The distributions also also contain source code in Forth block files (*.BLK, 1KB screens with 16 lines by 64 characters, no line breaks). You can best inspect these files from within a running F83 system.
 
 The original Laxen/Perry distribution had these files squeezed with a program
@@ -79,7 +86,6 @@ Sample regeneration run (here 68K version):
     Standard System Loaded 
     System has been loaded, Size = 28880 
     System saved as F83.68K  ok
-
 
 
 
