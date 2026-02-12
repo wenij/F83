@@ -18,7 +18,7 @@ FORTH-83 version 2.0 by Henry Laxen and Mike Perry for
 - Block-based editing and file/block management via 1KB screens.
 - Utilities such as a decompiler (`SEE`), multitasker, debugger, strings, and dump/print tools.
 
-The distributions also also contain source code in Forth block files (*.BLK, 1KB screens with 16 lines by 64 characters, no line breaks). You can best inspect these files from within a running F83 system.
+The distributions also contain source code in Forth block files (*.BLK, 1KB screens with 16 lines by 64 characters, no line breaks). You can best inspect these files from within a running F83 system.
 
 The original Laxen/Perry distribution had these files squeezed with a program
 that took hours (!) to run to unsqueeze at that time. See `HUFFMAN.BLK` and `EXPAND.BLK` for details. 
@@ -86,7 +86,6 @@ Sample regeneration run (here 68K version):
     Standard System Loaded 
     System has been loaded, Size = 28880 
     System saved as F83.68K  ok
-
 
 
 
